@@ -120,7 +120,7 @@ function _update()
   update_score()
 
   -- check if the player has won
-  if score >= 10 then
+  if score >= 100 then
     game_won = true
   end
 end
